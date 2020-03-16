@@ -1,0 +1,100 @@
+/** Home Hero */
+.home{
+    position: relative;
+    background: url("./images/App&WebHeader.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    z-index: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: -10px;
+}
+.home .home-text{
+    position: absolute;
+    margin: 0px;
+    padding-top: 220px;
+    padding-left: 20px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+
+/** Home Sliver */
+
+/** Product Items */
+.products{
+    padding: 0px;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.product-item{
+    display: block;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+}
+
+.product-item h1, p{
+    margin: 10px;
+} 
+
+.product{
+    padding: 0px;
+    border: 1px solid #f1f2f2;
+}
+    
+
+/* Medium devices (desktops, 992px and up) ****************************************************************/
+@media (min-width: 768px) {
+
+/** Home Hero */
+
+.home .home-text{
+    position: absolute;
+    margin: 0px;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 50%;
+    text-align: left;
+}
+    
+.home .home-text p{
+    margin: 0px;
+    
+}
+
+/** Home Sliver */
+ 
+
+/** Product Items */
+.products{
+    padding: 0px;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.product-item{
+    display: block;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+}
+
+.product-item h1, p{
+    margin: 10px;
+} 
+
+.product{
+    padding: 0px;
+    border: 1px solid #f1f2f2;
+}
+    
+

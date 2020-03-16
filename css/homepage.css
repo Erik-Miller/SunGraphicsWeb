@@ -1,0 +1,329 @@
+/** Home Hero */
+
+.home{
+    position: relative;
+    background: url("./images/AdoptionProfileHeaderMobilepng.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    z-index: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.home .home-text h1{
+    text-transform: none;
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    max-height: 400px;
+    color: #fff;
+}
+.hero-title-row{
+    background-color:  #001689;
+    position: relative;
+    height: 50px;
+}
+.hero-title h1{
+    line-height: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+/** Slider **/
+.heroslider {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+
+.heroslider .slick-prev {
+    /*left: 100px;*/
+    position: relative;
+    color: #fff;
+
+    left: 40px !important;
+    z-index: 500;
+    background: red; /*to notice it, is white*/
+}
+ .heroslider.slick-next {
+    right: 50px !important;
+    z-index: 500;
+}
+
+.slick-slide img {
+        display: block;
+    position: relative;
+}
+
+/** Products Section */ 
+
+.product{
+    max-width: 1440px;
+    position: relative;
+    padding: 0px;
+
+}
+/*.product-content{
+    position: relative;
+}
+*/
+.product-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+}
+
+.product-img {
+    height: 50px;
+}
+
+.product-slider .slick-prev {
+    /*left: 100px;*/
+    left: -55px;
+    color: #ccc !important;
+    z-index: 500;
+
+}
+.product-slider .slick-prev:before {
+    color: #ccc;
+}
+
+.product-slider .slick-next:before {
+    color: #ccc;
+}
+
+ .product-slider .slick-next {
+    z-index: 500;
+}
+
+.product-content{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    position: inline-block;
+}
+
+/*.product-item{
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    border: solid;
+    border-width: 1px;
+    border-color: #808080;
+}*/
+
+.carousel-control{
+    background-color: transparent;  
+}
+
+/** Team */
+
+.team-section{
+    background-color: #f1f2f2;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.team{
+    position: relative;
+    padding: 0px;
+}
+
+.team-title{
+    padding: 0px;
+}
+.title-lines{
+     display: inline-block;
+  position: relative;  
+}
+.title-lines:before, 
+.title-lines:after{
+  content: "";
+  position: absolute;
+  height: 10px;
+  border-bottom: 1px solid #001689;
+  top: 0;
+  width: 50px;
+}
+
+.title-lines:before{
+     right: 100%;
+  margin-right: 15px;
+    
+}
+.title-lines:after{
+      left: 100%;
+  margin-left: 15px;
+}
+.team-title p{
+    padding: 0px 10px 0px 10px;
+}
+.team-content{
+    position: relative;
+}
+.team-item{
+    position: relative;
+    display: block;
+    padding: 10px;
+    min-height: 50px; 
+}
+
+
+/* Medium devices (desktops, 992px and up) ****************************************************************/
+@media (min-width: 768px) {
+
+
+/** Home Hero */
+.home{
+    position: relative;
+    background: url("./images/AdoptionProfileHeader.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    z-index: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+.home .home-text{
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+    max-height: 400px;
+    color: #fff;
+}
+
+
+/** Products Section */ 
+
+.product{
+    text-align: center;
+    position: relative;
+
+}
+    
+.product-content{
+    max-width: 1024px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    position: inline-block;
+
+}
+.product-item{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+    border: solid;
+    border-width: 1px;
+    border-color: #808080;
+    width: 30.5%;
+}
+    
+.product-img{
+    margin: 10px 5px 20px 5px;
+}
+
+.carousel-control{
+    background-color: transparent;
+    
+}
+    
+/** Team */
+.team-section{  
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.team{
+    position: relative;
+    padding: 0px;
+
+}
+
+.team-title{
+    padding: 0px;
+}
+    
+.title-lines{
+     display: inline-block;
+  position: relative;  
+}
+.title-lines:before, 
+.title-lines:after{
+  content: "";
+  position: absolute;
+  height: 10px;
+  border-bottom: 1px solid #001689;
+  top: 0;
+  width: 250px;
+}
+
+.title-lines:before{
+     right: 100%;
+  margin-right: 15px;
+    
+}
+.title-lines:after{
+      left: 100%;
+  margin-left: 15px;
+}
+    
+.team-content{
+    max-width: 1024px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.team-item{
+    position: relative;
+    display: block;
+    padding: 0px;
+    height: 75px;
+    margin: 0px 15px 30px 15px;
+}
+    
+.team-img{
+    margin: 10px 15px 30px 15px;
+    
+}
+
+@media (max-width: 600px) {
+
+    .product-item{
+        margin: 10px !important;
+    }
+
+
+}
+@media (min-width: 1024px) {
+.home{
+    position: relative;
+    background: url("./images/desktopmock.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    z-index: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}    
+    
+    
+}

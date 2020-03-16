@@ -1,0 +1,138 @@
+/** Home Hero */
+
+.home{
+    position: relative;
+    background: url("./images/AdoptionProfileHeader.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    z-index: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: -10px;
+}
+
+.home .home-text{
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 300px;
+    max-height: 400px;
+    color: #fff;
+}
+
+.designerIntro {
+	margin-left: 40px;
+    margin-top: 200px;
+    margin-right: 20px;
+}
+
+/** Home Sliver */
+
+.bio-content{
+    margin: 0px;
+}
+
+.bio-text{
+    padding: 20px 20px 0px 20px;
+    margin: 0px;
+}
+
+.bio-photos{
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+.bio-photos img{
+    margin-top: 10px;
+}
+
+.bio-photos-1 {
+    padding: 10px;
+    margin-bottom: -40px;
+}
+.bio-photos-1 img{
+    margin-top: 10px;
+}
+
+
+
+/* Medium devices (desktops, 992px and up) ****************************************************************/
+@media (min-width: 768px) {
+    
+    .designerIntro {
+	margin-left: 120px;
+    margin-top: 175px;
+        margin-right: 50%;
+}
+    
+.bio-content{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bio-text{
+    padding: 10px 100px 10px 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bio-photos{
+    padding: 0px;
+    margin: 10px 100px 10px 100px;
+}
+
+.bio-photos img{
+    margin-top: 0px;
+}
+
+.bio-photos-1 {
+      padding: 0px;
+    margin: 10px 100px 10px 100px;
+}
+.bio-photos-1 img{
+    margin-top: 0px;
+}    
+    
+
+/* Medium devices (desktops, 992px and up) ****************************************************************/
+@media (min-width: 992px) {
+    
+    .designerIntro {
+	margin-left: 120px;
+    margin-top: 175px;
+        margin-right: 50%;
+}
+    
+.bio-content{
+   
+    padding: 0px;
+}
+
+.bio-text{
+     margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px 20px 20px 20px;
+}
+
+.bio-photos{
+    padding: 0px;
+    margin:;
+}
+
+.bio-photos img{
+    margin-top: 0px;
+}
+
+.bio-photos-1 {
+      padding: 0px;
+    margin: 10px 100px 10px 100px;
+}
+.bio-photos-1 img{
+    margin-top: 0px;
+}    
+    
+}

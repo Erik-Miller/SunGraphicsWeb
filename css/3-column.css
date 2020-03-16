@@ -1,0 +1,121 @@
+/** Home Hero */
+
+.home{
+    position: relative;
+    background: url("./images/App&WebHeader.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    z-index: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: -10px;
+}
+
+.home .home-text{
+    position: absolute;
+    margin: 0px;
+    padding-top: 220px;
+    padding-left: 20px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+
+/** Home Sliver */
+
+
+/* Text content */
+
+.column-text img{
+    margin: 0px 0px 20px 0px;
+    
+}
+.text-body-left{
+    position: relative;
+    margin: 0px;
+    padding: 20px 40px 0px 40px;
+}
+
+.text-body-center{
+    position: relative;
+    margin: 0px;
+    padding: 20px 40px 0px 40px;
+}
+
+.text-body-right{
+    position: relative;
+    margin: 0px;
+    padding: 20px 40px 20px 40px;
+}
+
+
+/* Medium devices (desktops, 992px and up) ****************************************************************/
+@media (min-width: 768px) {
+    
+/** Home Hero */
+
+.home .home-text{
+    position: absolute;
+    margin: 0px;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 50%;
+    text-align: left;
+}
+
+
+/* Text content */
+
+.column-text{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+    
+.text-body-left{
+    position: relative;
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
+}
+
+.text-body-center{
+    position: relative;
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
+}
+    
+.text-body-right{
+    position: relative;
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
+}  
+    
+/* For desktop devices and larger ************************************************************/    
+@media (min-width: 1024px) {
+
+    .column-text{
+    padding-left: 00px;
+    padding-right: 00px;
+}
+    
+    .text-body-left{
+    position: relative;
+    margin: 0px;
+    padding: 20px 10px 10px 10px;
+}
+
+.text-body-center{
+    position: relative;
+    margin: 0px;
+    padding: 20px 10px 10px 10px;
+}
+    
+.text-body-right{
+    position: relative;
+    margin: 0px;
+    padding: 20px 10px 10px 10px;
+}  
+    
+}

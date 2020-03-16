@@ -1,0 +1,128 @@
+/** Home Hero */
+
+.home{
+    position: relative;
+    background: url("./images/Signs&PostersHeader.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    z-index: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: -10px;
+}
+
+.home .home-text{
+    position: absolute;
+    margin: 0px;
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 10%;
+    text-align: left;
+}
+
+
+/** Home Sliver */
+
+/* Text content */
+.text-body-left{
+    position: relative;
+    margin: 0px;
+    padding: 20px 40px 0px 40px;
+}
+
+.text-body-right{
+    position: relative;
+    margin: 0px;
+    padding: 0px 40px 20px 40px;
+}
+.team-photos{
+    padding: 10px;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.team-photo{
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+
+.team-photo h1{
+    top: -105px;
+    left: 20px;
+    position: relative;
+    margin: 50px 0px 0px 0px;
+    color: #fff;
+}
+
+.team-photo p{
+    top: -105px;
+    left: 20px;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    color: #fff;
+}
+
+/* Medium devices (desktops, 992px and up) ****************************************************************/
+@media (min-width: 768px) {
+    
+/** Home Hero */
+
+
+.home .home-text{
+    position: absolute;
+    margin: 0px;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 50%;
+    text-align: left;
+}
+
+/** Home Sliver */
+    
+/* Text content */
+.text-body-left{
+    position: relative;
+    margin: 0px;
+    padding-left: 15%;
+}
+
+.text-body-right{
+    position: relative;
+    margin: 0px;
+    padding-right: 15%;
+    padding-top: 20px;
+}  
+
+.team-photos{
+    padding: 0px;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.team-photo{
+    display: block;
+    position: relative;
+    margin-bottom: -75px;
+}
+
+.team-photo h1{
+    top: -100px;
+    left: 20px;
+    margin: 50px 0px 0px 0px;
+    color: #fff;
+}
+
+.team-photo p{
+    top: -100px;
+    left: 20px;
+    margin: 0px 0px 0px 0px;
+    color: #fff;
+}

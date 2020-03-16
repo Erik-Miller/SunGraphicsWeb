@@ -1,0 +1,716 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: scrollbar;
+}
+
+/* ---Brand Colors ---*/
+
+.yellow{
+    color: #FFCF2B;
+}
+
+.blue{
+    color: #001689;
+}
+/* --- Some Global Styles */    
+    
+body {
+    background: #fff;
+    font: 400 12px/1.8 "Helvetica Neue", "Open Sans", sans-serif;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+}
+a{
+    color: #001689;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 18px;
+    color: #001689;
+    text-transform: uppercase;
+}
+p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #666;
+}
+
+section{
+    height: 400px;
+}
+
+sliver{
+    height: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    border: 0;
+}
+
+.align-center{
+    text-align: center;
+    align-content: center;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+img{
+width: 100%;
+    height: auto;
+}
+
+.main-cta{
+    color: #001689;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: solid;
+    border-color: #001689;
+    border-width: 1px;
+    padding: 10px 20px;
+    height: 50px;
+    width: auto;
+    line-height: 2.5;
+    margin: 10px 10px;
+        
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.padding {
+    position: relative;
+    margin: 10px 100px 10px 100px;
+}
+
+.margin-desktop{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.thick-separator{
+    background-color: #f1f2f2;
+    height: 20px;
+    margin: 40px 0px 40px 0px;    
+}
+
+.max-width{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/** Slim nav */
+
+.slim{ 
+    padding: 0px;
+}
+.slim-nav{
+    display: block;
+    position:relative;
+    color: #001689;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.slim-nav img {
+    margin-right: 20px;
+    height: 20px;
+    width: auto;
+}
+
+.slim-nav-item{
+    margin-right: 50px;
+    height: 35px;
+    padding-top: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.slim-nav-item > a{
+    text-align: right;
+    color: #001689;
+    vertical-align: middle;
+}
+
+.slim-nav-item > a:hover{
+    text-decoration: none;   
+}
+
+
+.form-control{
+    border-radius: 0px;
+    box-shadow: none;
+    border: solid;
+    border-width: 1px;
+    border-color: #001689;
+}
+
+.right-inner-addon {
+    position: relative;
+    width: auto;
+    height: 30px;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon span{
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+/** Main nav */
+
+.sung-logo{
+    position: relative;
+    width: 200px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.navbar-brand{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+opacity: .7;  
+color: #001689;/*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; /*BACKGROUND color for active*/
+background-color: #001689;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #001689;
+}
+
+  .navbar-default {
+    background-color:#fff;
+      border-radius: 0;
+      margin-bottom: 0px;
+      border: 0px;
+}
+
+.dropdown-menu li a {
+    background: #fff;
+    font: 400 12px/1.8 "Open Sans", sans-serif;
+    color: #666;
+    -webkit-font-smoot
+    
+    
+}
+.navbar-collapse{
+    color: #001689;
+}
+
+  .navbar-default .navbar-nav > li > a {
+   color: #001689; 
+    text-align: center;
+      border-bottom: 1px solid #f1f2f2;/*Change active text color here*/
+    }
+
+.navbar-default .navbar-nav > li > ul > li{
+    text-align: center;
+    border-bottom: 1px solid #f1f2f2;
+}
+
+.navbar-toggle{
+    border: none;
+}
+
+.glyphicon-menu-down{
+    float: right;
+}
+
+/** Slider **/
+.heroslider {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.heroslider .slick-prev {
+    /*left: 100px;*/
+    position: relative;
+    color: #fff;
+
+    left: 40px !important;
+    z-index: 500;
+    background: red; /*to notice it, is white*/
+}
+ .heroslider.slick-next {
+    right: 50px !important;
+    z-index: 500;
+}
+
+.slick-slide img {
+        display: block;
+    position: relative;
+}
+
+
+
+/** Home Sliver */
+.guarantee{
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    z-index: 1;
+    margin-top: 0px;
+}
+.guarantee-content{
+    background-color: #f1f2f2;
+    padding: 0px;
+    margin-left: 0px;
+    position: relative;
+    margin-right: auto;
+    
+}
+.guarantee-items{
+    position: relative;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.guarantee-text{
+    padding: 0px 40px 20px 20px;
+    float: left;
+    margin: 0px;
+}
+
+.guarantee-img{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    max-width: 125px;
+}
+.guarantee-shadow{
+    height: 10px;
+    background: -webkit-radial-gradient(50% 0%, 30% 10px, #a4a4a4 0%, transparent  100%);
+}
+.guarantee-shadow-2{
+    margin-top: -10px;
+    height: 10px;
+    padding-top: 10px;
+    background: -webkit-radial-gradient(50% 100%, 30% 10px, #a4a4a4 0%, transparent 100%);
+}
+
+
+.carousel-control{
+    background-color: transparent;
+    
+}
+
+/** Footer */
+footer{
+    text-align: center; 
+    
+}
+
+.footer-content{
+    margin-top: 20px;
+}
+
+.footer-items{
+    padding: 20px;
+     display: inline-block;
+    position: relative;  
+    border-bottom: 1px solid #001689; 
+    height: 175px;
+}
+
+
+
+.footer-items .social{
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #808080;
+}
+
+.copyright{
+    margin-top: 20px;
+    padding: 20px;
+}
+.copyright a{
+    padding: 10px;
+}
+.legal{
+    padding: 20px;
+}
+
+/* Tablet on to 992 ************************************************************************/
+
+@media (min-width: 768px){
+
+    
+   /** Slim nav */
+
+.slim{
+    position: relative;
+}
+.slim-nav{
+    max-width: 1024px;
+    width: 100%;
+    height: 30px;
+    display: block;
+    position:relative;
+    color: #001689;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+}
+
+.slim-nav-item{
+    margin-right: 0px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    height:  30px;
+    padding: 0px;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.slim-nav-item > a{
+    margin-right: 20px;
+    color: #001689;
+    vertical-align: middle;
+}
+
+.slim-nav-item > a:hover{
+    text-decoration: none;   
+}
+
+
+.form-control{
+    height: 30px;
+    border-radius: 0px;
+    box-shadow: none;
+    border: solid;
+    border-width: 1px;
+    border-color: #001689;
+    margin-top: 0px;
+}
+
+.right-inner-addon {
+    position: relative;
+    width: auto;
+    height: 30px;
+}
+    
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+    
+.right-inner-addon span{
+    position: absolute;
+    right: 0px;
+    padding: 8px 12px;
+    pointer-events: none;
+}
+
+/** Main nav */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+opacity: .7;  
+color: #001689;/*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover {
+color: white; /*BACKGROUND color for active*/
+background-color: lightgray;
+}
+
+.navbar-default {
+    background-color:#fff;
+      border-radius: 0;
+      margin-bottom: 0;
+      margin-right: 15px;
+      margin-left: 15px;
+    
+}
+
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #262626;
+   text-decoration: none;
+  background-color: none;  /*change color of links in drop down here*/
+   }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: #001689; /*Change active text color here*/
+    }
+
+.glyphicon-menu-down{
+    float:none;
+}
+
+.navbar-default {
+    max-width: 1024px;
+    background-color:#fff;
+      border-radius: 0;
+      margin-bottom: 0;
+      margin-right: 0px;
+      margin-left: 0px;   
+}
+    
+.sung-logo{
+    width: 165px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+    
+.navbar-brand{
+    padding: 0px;
+    margin: 0px -20px 0px 0px;
+}    
+    
+
+
+/** Home Sliver */
+    
+.guarantee-content{
+    background-color: #f1f2f2;
+    padding: 0px;
+    margin-left: 0px;
+   
+    position: relative;
+    
+}
+    
+.guarantee{
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    z-index: 1;
+    margin-top: -20px;
+}    
+    
+.guarantee-img{
+    float: right;
+    margin-top: 10px;
+    padding: 0px;
+    max-width: 100px;
+}    
+
+/** Footer */
+footer{
+    text-align: center; 
+    
+}
+
+.footer-content{
+   
+    margin: 20px 20px 10px 20px;
+}
+
+.footer-items{
+    padding: 20px;
+     display: inline-block;
+    position: relative;  
+    height: 200px;
+    text-align: left;
+}
+
+.footer-item-line:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 30px;
+    bottom: 30px;
+    border-right: 1px solid #001689;
+}
+
+.footer-items .social{
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #808080;
+}
+
+.copyright{
+    margin-top: 20px;
+    padding: 20px;
+}
+.copyright a{
+    padding: 10px;
+}
+.legal{
+    padding: 20px;
+}
+
+}
+
+
+/* Desktop  (992px and up) ****************************************************************/
+@media (min-width: 992px) {
+
+    
+/** Slim nav */
+
+.form-control{
+    height: 30px;
+    border-radius: 0px;
+    box-shadow: none;
+    border: solid;
+    border-width: 1px;
+    border-color: #001689;
+    margin-top: 0px;
+}
+
+.right-inner-addon {
+    position: relative;
+    width: auto;
+    height: 30px;
+}
+    
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+    
+.right-inner-addon span{
+    position: absolute;
+    right: 0px;
+    padding: 8px 12px;
+    pointer-events: none;
+}
+
+/** Main nav */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+opacity: .7;  
+color: #001689;/*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover {
+color: white; /*BACKGROUND color for active*/
+background-color: lightgray;
+}
+
+.navbar-default {
+    max-width: 1024px; 
+    background-color:#fff;
+      border-radius: 0;
+      margin-bottom: 0;
+      margin-right: auto;
+      margin-left: auto;
+    
+}
+
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #262626;
+   text-decoration: none;
+  background-color: none;  /*change color of links in drop down here*/
+   }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: #001689; /*Change active text color here*/
+    }
+
+.glyphicon-menu-down{
+    float:none;
+}
+
+/** Home Sliver */
+.guarantee-img{
+    float: right;
+    margin: 5px;
+    padding: 0px;
+    max-width: 100px;
+}        
+    
+/** Footer */
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px; 
+}
+
+.footer-content{
+    margin: 20px 5% 10px 5%;
+}
+
+.footer-items{
+    padding: 20px;
+     display: inline-block;
+    position: relative;  
+    height: 160px;
+    text-align: left;
+}
+
+.footer-item-line:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 30px;
+    bottom: 30px;
+    border-right: 1px solid #001689;
+}
+
+.footer-items .social{
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #808080;
+}
+
+.copyright{
+    margin-top: 20px;
+    padding: 20px;
+}
+.copyright a{
+    padding: 10px;
+}
+.legal{
+    padding: 20px;
+}
+
